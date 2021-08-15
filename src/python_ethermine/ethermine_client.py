@@ -1,7 +1,7 @@
-from src.python_ethermine.base_client import BaseClient
-from src.python_ethermine.controllers.miner import Miner
-from src.python_ethermine.controllers.worker import Worker
-from src.python_ethermine.controllers.pool import Pool
+from .base_client import BaseClient
+from .controllers.miner import Miner
+from .controllers.worker import Worker
+from .controllers.pool import Pool
 
 
 class EthermineClient:

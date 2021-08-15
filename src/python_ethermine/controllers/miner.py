@@ -1,10 +1,11 @@
-from src.python_ethermine.base_client import BaseClient
-from src.python_ethermine.models.miner.dashboard import Dashboard
-from src.python_ethermine.models.miner.history import History
-from src.python_ethermine.models.miner.payouts import Payouts
-from src.python_ethermine.models.miner.rounds import Rounds
-from src.python_ethermine.models.miner.settings import Settings
-from src.python_ethermine.models.miner.statistic import Statistic
+from ..base_client import BaseClient
+from ..models.miner.dashboard import Dashboard
+from ..models.miner.history import History
+from ..models.miner.payouts import Payouts
+from ..models.miner.rounds import Rounds
+from ..models.miner.settings import Settings
+from ..models.miner.statistic import Statistic
+
 
 class Miner(object):
     def __init__(self, client: BaseClient):

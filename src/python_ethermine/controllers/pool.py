@@ -1,8 +1,8 @@
-from src.python_ethermine.base_client import BaseClient
-from src.python_ethermine.models.pool.basic_pool_stats import BasicPoolStats
-from src.python_ethermine.models.pool.mined_blocks_stats import MinedBlocksStats
-from src.python_ethermine.models.pool.network_statistics import NetworkStatistics
-from src.python_ethermine.models.pool.server_hashrate_stats import ServerHashrateStats
+from ..base_client import BaseClient
+from ..models.pool.basic_pool_stats import BasicPoolStats
+from ..models.pool.mined_blocks_stats import MinedBlocksStats
+from ..models.pool.network_statistics import NetworkStatistics
+from ..models.pool.server_hashrate_stats import ServerHashrateStats
 
 
 class Pool(object):

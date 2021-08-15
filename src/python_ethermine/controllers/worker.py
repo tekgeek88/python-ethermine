@@ -1,7 +1,7 @@
-from src.python_ethermine.base_client import BaseClient
-from src.python_ethermine.models.worker.all_worker_stats import AllWorkerStats
-from src.python_ethermine.models.worker.individual_historical_worker_stats import IndividualHistoricalWorkerStats
-from src.python_ethermine.models.worker.individual_worker_stats import IndividualWorkerStats
+from ..base_client import BaseClient
+from ..models.worker.all_worker_stats import AllWorkerStats
+from ..models.worker.individual_historical_worker_stats import IndividualHistoricalWorkerStats
+from ..models.worker.individual_worker_stats import IndividualWorkerStats
 
 
 class Worker(object):
