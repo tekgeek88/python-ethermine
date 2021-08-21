@@ -1,5 +1,6 @@
 
 # python-ethermine
+[![Build Status](https://app.travis-ci.com/tekgeek88/python-ethermine.svg?branch=master)](https://app.travis-ci.com/tekgeek88/python-ethermine)
 
 ## What it is
 
