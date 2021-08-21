@@ -161,3 +161,4 @@ gen
 pyvenv.cfg
 pip-selfcheck.json
 
+/Pipfile
