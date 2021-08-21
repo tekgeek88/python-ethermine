@@ -1,36 +1,18 @@
 import json
-
-from typing import Dict
+from typing import Dict, List
+from dataclasses import dataclass, asdict
 
 
 # Array of worker statistics ordered by name ASC
+@dataclass
 class MinedBlocksStats(object):
-
-    def __init__(self, data=None):
-        self._data = data
-
-    @property
-    def data(self) -> list:
-        return self._data
-
-    @data.setter
-    def data(self, value: list):
-        self._data = value
+    data: List = None
 
     def toJson(self):
-        return json.dumps(self.toDictionary())
-
-    def toDictionary(self):
-        result = {}
-        result["data"] = self.data
-        return result
+        return json.dumps(asdict(self))
 
     @staticmethod
     def fromJson(content: Dict):
         result = MinedBlocksStats()
         data = content.get("data", {})
-        if data is not None and len(data) > 0:
-            result.data = []
-            for value in data:
-                result.data.append(value)
-        return result
+        return MinedBlocksStats(**data)
