@@ -1,7 +1,9 @@
 
 # python-ethermine
 [![Build Status](https://app.travis-ci.com/tekgeek88/python-ethermine.svg?branch=master)](https://app.travis-ci.com/tekgeek88/python-ethermine) 
+![PyPI](https://img.shields.io/pypi/v/python-ethermine)
 [![codecov](https://codecov.io/gh/tekgeek88/python-ethermine/branch/master/graph/badge.svg?token=FU1C3UJ2ZK)](https://codecov.io/gh/tekgeek88/python-ethermine)
+![PyPI - License](https://img.shields.io/pypi/l/python-ethermine)
 
 ## What it is
 
