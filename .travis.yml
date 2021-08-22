@@ -1,5 +1,7 @@
 language: python
+install:
+  - pip install codecov pytest-cov
 script:
-  - pytest
+  - pytest ./tests/test_basic_tests.py --cov --cov-report=xml
 after_success:
   - codecov
