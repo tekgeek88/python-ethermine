@@ -11,6 +11,13 @@ An API Wrapper for the Ethermine API. Easily allows you to create a client and a
 operation
 
 ## How to use it
+
+### Install Package
+```
+pip install python-ethermine
+```
+
+### Example:
 ```
 from python_ethermine import EthermineClient
 
